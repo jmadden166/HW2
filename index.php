@@ -22,9 +22,9 @@
 $bg_color = htmlspecialchars($_GET['bg']);
 $text = htmlspecialchars($_GET['text']);
 ?> 
-    <body>
+    <body style="background: <?php echo $bg_color ?>">
         <h1>Jack's Formula 1 Fansite</h1>
-      style="background: <?php echo $bg_color ?>"
+      
         <h2>
 <?php
 echo 'Hello ' . htmlspecialchars($_POST["name"]) . ', Welcome to My Website!';
