@@ -36,7 +36,7 @@ echo 'Hello, Please Enter Your Name Below.';
 
 <form method=”get” >
  
-<input type="text" name="email">
+<input type="text" name="name">
  
 </form>
 
