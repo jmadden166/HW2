@@ -21,37 +21,18 @@
         </style>
         <!--The Bootstrap components for this project are 1) color; 2) Carousel; 3) Pictures; 4) Scrollspy; 5) Dropdown; 6) Card; 7) Table; 8) Breadcrumb-->
     </head>
-     <?php
-$bg_color = htmlspecialchars($_GET['bg']);
-$text = htmlspecialchars($_GET['text']);
-    $txt = "index.php";
-    $name = "Home";
+ <?php
+$txt = "Jack's Formula 1 Fansite";
+
 ?> 
 	
 
     <body style="background: <?php echo $bg_color ?>">
-        <h1>Jack's Formula 1 Fansite</h1>
-      
-        <h2>
-<?php
-echo 'Hello, Please Enter Your Name Below.';
-?>
-
-<form method=”get” >
- 
-<input type="text" name="name">
- 
-</form>
+        <h1>echo "$txt";</h1>
 
 
-        </h2>
-	    <h3>
 
-<?php
-echo 'Hello ' . htmlspecialchars($_POST["name"]) . '!';
-?>
 
-</h3>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 
