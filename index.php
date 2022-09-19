@@ -15,6 +15,9 @@
             h2 {
                 text-align: center;
             }
+		 h3 {
+                text-align: center;
+            }
         </style>
         <!--The Bootstrap components for this project are 1) color; 2) Carousel; 3) Pictures; 4) Scrollspy; 5) Dropdown; 6) Card; 7) Table; 8) Breadcrumb-->
     </head>
@@ -42,8 +45,9 @@ echo 'Hello, Please Enter Your Name Below.';
 
 
         </h2>
+	    <h3>
 Welcome <?php echo $_POST["name"]; ?><br>
-
+</h3>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 
