@@ -20,8 +20,7 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php"><?php
-echo $_GET["txt"];?></a></li>
+            <li class="breadcrumb-item"><a href="index.php"><Home></a></li>
             <li class="breadcrumb-item active" aria-current="page">Past Races</li>
         </ol>
     </nav>
