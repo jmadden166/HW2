@@ -48,9 +48,7 @@ echo 'Hello, Please Enter Your Name Below.';
 	<?php
 	    $get_name=$_GET["name"];
 	    $get_name=$_GET["getname"];
-		    <h3> 
-	echo "Hello, ". $get_name Welcome to My Website"<br>";
-	</h3>
+	echo "Hello, ". $get_name "Welcome to My Website";
 		?> 
     <div class="dropdown">
         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
