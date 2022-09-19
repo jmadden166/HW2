@@ -28,7 +28,7 @@ $txt = "Jack's Formula 1 Fansite";
 	
 
     <body style="background: <?php echo $bg_color ?>">
-        <h1>echo "$txt";</h1>
+        <h1> <?php echo "$txt"; ?> </h1>
 
 
 
