@@ -39,7 +39,12 @@ echo 'Hello, Please Enter Your Name Below.';
 <input type="text" name="name">
  
 </form>
+
         </h2>
+	    $get_name=$_GET["name"];
+	    $get_name=$_GET["getname"];
+	    <h3> 
+	echo "Hello, ". $get_name Welcome to My Website"<br>";
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 
