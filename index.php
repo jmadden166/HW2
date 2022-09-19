@@ -21,6 +21,8 @@
      <?php
 $bg_color = htmlspecialchars($_GET['bg']);
 $text = htmlspecialchars($_GET['text']);
+    $txt = "index.php";
+    $name = "Home";
 ?> 
     <body style="background: <?php echo $bg_color ?>">
         <h1>Jack's Formula 1 Fansite</h1>
