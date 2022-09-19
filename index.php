@@ -34,11 +34,7 @@ $text = htmlspecialchars($_GET['text']);
 echo 'Hello, Please Enter Your Name Below.';
 ?>
 
-<form method=”get” action = “”>
- 
-<input type="text" name="name">
- 
-</form>
+
 
         </h2>
 Welcome <?php echo $_POST["name"]; ?><br>
