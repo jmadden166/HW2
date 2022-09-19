@@ -25,6 +25,11 @@ $text = htmlspecialchars($_GET['text']);
     <body>
         <h1>Jack's Formula 1 Fansite</h1>
       style="background: <?php echo $bg_color ?>"
+        <h2>
+<?php
+echo 'Hello ' . htmlspecialchars($_POST["name"]) . ', Welcome to My Website!';
+?>
+        </h2>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 
