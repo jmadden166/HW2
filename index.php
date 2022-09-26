@@ -30,6 +30,15 @@ echo "The current server timezone is: " . $timezone;
         <h2>It is currently getTime()</h2>
 
     </body>
- 
+    <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+        </a>
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="page2.php">My Interests</a></li>
+            <li><a class="dropdown-item" href="page3.php">My Classes</a></li>
+        </ul>
+    </div>
 
     </html>
