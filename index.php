@@ -22,7 +22,7 @@ echo $timezone;
 
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">
-     <?php echo $_POST['lname']; ?>
+     <?php echo $_GET['lname']; ?>
 
 </form> 
     </body>
