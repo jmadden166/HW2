@@ -23,7 +23,7 @@ echo $timezone;
   <input type="submit" value="Submit">
 </form> 
         
- <form method="get" action="page2.php">
+ <form method="get" action="page3.php">
   <label for="fClass">Favorite Class:</label><br>
   <input type="text" id="fClass" name="fClass"><br>    
   <label for="teach">Favorite Teacher:</label><br>
