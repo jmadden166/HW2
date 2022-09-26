@@ -14,16 +14,12 @@ echo $timezone;
             
   ?>
         <h2>Today's Date is <?php getTime(); ?></h2>
+
+ <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form> 
     </body>
-    <div class="dropdown">
-        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Menu
-        </a>
-
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="page2.php">My Interests</a></li>
-            <li><a class="dropdown-item" href="page3.php">My Classes</a></li>
-        </ul>
-    </div>
-
     </html>
