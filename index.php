@@ -22,5 +22,14 @@ echo $timezone;
   <input type="text" id="email" name="email">
   <input type="submit" value="Submit">
 </form> 
+        
+ <form method="get" action="page2.php">
+  <label for="fClass">Favorite Class:</label><br>
+  <input type="text" id="fClass" name="fClass"><br>    
+  <label for="teach">Favorite Teacher:</label><br>
+  <input type="text" id="teach" name="teach">
+  <input type="submit" value="Submit">
+</form>         
+
     </body>
     </html>
