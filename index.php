@@ -15,7 +15,7 @@ echo $timezone;
   ?>
         <h2>Today's Date is <?php getTime(); ?></h2>
 
- <form>
+ <form method="post" action="page2.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
      <?php function first(){echo $_POST['fname']; }?>
@@ -25,6 +25,5 @@ echo $timezone;
      <?php function last(){ echo $_GET['lname']; }?>
   <input type="submit" value="Submit">
 </form> 
-        <?php include 'page2.php'; ?>
     </body>
     </html>
