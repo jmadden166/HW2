@@ -18,12 +18,13 @@ echo $timezone;
  <form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
-     <?php echo $_POST['fname']; ?>
+     <?php function first(){echo $_POST['fname']; }?>
 
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">
-     <?php echo $_GET['lname']; ?>
+     <?php function last(){ echo $_GET['lname']; }?>
   <input type="submit" value="Submit">
 </form> 
+        <?php include 'page2.php'; ?>
     </body>
     </html>
