@@ -11,9 +11,9 @@
   $timezone = date_default_timezone_get();
 echo "The current server timezone is: " . $timezone;
   }
-              ?>
-        <h2>It is currently getTime()</h2>
-
+            
+  ?>
+        <h2>It is currently <?php getTime(); ?></h2>
     </body>
     <div class="dropdown">
         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
