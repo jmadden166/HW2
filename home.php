@@ -28,3 +28,4 @@ echo "The current server timezone is: " . $timezone;
   }
   ?>
   <h2>It is currently getTime()</h2>
+    </html>
