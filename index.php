@@ -18,6 +18,7 @@ echo $timezone;
  <form method="post" action="page2.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
+       <input type="submit" value="Submit">
 </form> 
  <form method="get" action="page2.php">        
   <label for="email">Email:</label><br>
